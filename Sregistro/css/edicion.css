@@ -1,0 +1,11 @@
+#foto{
+	height: auto;
+	background: white;
+	border-radius: 10px;
+	padding: 5px;
+	-webkit-box-shadow: 0 0 10px #0C0C0C;
+	-moz-box-shadow: 0 0 10px #0C0C0C;
+	-ms-box-shadow: 0 0 10px #0C0C0C;
+	-o-box-shadow: 0 0 10px #0C0C0C;
+
+}

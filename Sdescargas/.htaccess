@@ -1,0 +1,17 @@
+#Activar rewriteEngine
+RewriteEngine on
+
+#Reescribir la URL solicitada por el usuario
+#Nuevo nombre de la pagina
+RewriteRule ^NOTHING!(\w+)/?$ descargarArchivos.php?id=$1
+
+
+
+# tamaño maximo para subir archivos
+php_value upload_max_filesize 100M
+# tamaño maximo de datos enviados por POST
+php_value post_max_size 100M
+#tiempo maximo de ejecucicon de cada script en segundos
+php_value max_execution_time 1000
+#tiempo maximo para analizar la peticion de datos
+php_value max_input_time 1000

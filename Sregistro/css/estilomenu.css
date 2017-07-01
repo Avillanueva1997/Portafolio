@@ -1,0 +1,160 @@
+a{
+	list-style: none;
+	text-decoration: none;
+}
+
+li{
+	padding: 5px 5px 20px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.boton{
+	/*Estilo de degradado para el boton*/
+	background: linear-gradient(top,#00b7ea 20%, #009ec3 100%);
+	/*Chrome*/
+	background: -webkit-linear-gradient(top,#00b7ea 20%, #009ec3 100%);
+	/*Mozila*/
+	background: -moz-linear-gradient(top,#00b7ea 20%, #009ec3 100%);
+	/*IE*/
+	background: -ms-linear-gradient(top,#00b7ea 20%, #009ec3 100%);
+	color: #FFF;
+	font:bold 17px Arial, Helvetica;
+	text-align: center;
+	box-shadow: 2px 0px 4px rgba(0,0,0,0,2);
+	-webkit-box-shadow: 2px 0px 4px rgba(0,0,0,0.4);
+	-moz-box-shadow: 2px 0px 4px rgba(0,0,0,0.4);
+	-ms-box-shadow: 2px 0px 4px rgba(0,0,0,0.4);
+	border-radius: 10px;
+	cursor: pointer;
+	padding: 9px;
+
+}
+
+.botones li{
+	/*duracion de la animacion*/
+	-webkit-animation-duration: 0.5s;
+	-moz-animation-duration: 0.5s;
+
+}
+
+.botones>li:hover{
+-webkit-animation-name:BotonesMenu;
+-moz-animation-name:BotonesMenu;
+}
+
+
+/*Efecto de animacion para el navegador chrome*/
+@-webkit-keyframes BotonesMenu{
+	0%{
+		text-shadow: 200px 2px #000000;
+	}
+	50%{
+		-webkit-transform:scale(1.2);
+		border-radius: 5px;
+	}
+	100%{
+		-webkit-transform:scale(1.1);
+		text-shadow: 2px 2px 1px #375F85;
+	}
+}
+
+@-moz-keyframes BotonesMenu{
+	0%{
+		text-shadow: 200px 2px #000000;
+	}
+	50%{
+		-moz-transform:scale(1.2);
+		border-radius: 5px;
+	}
+	100%{
+		-moz-transform:scale(1.1);
+		text-shadow: 2px 2px 1px #375F85;
+	}
+}
+
+@media(max-width:1920px){
+
+}
+
+@media(max-width:1280px){
+
+}
+@media(max-width:980px){
+
+}
+@media(max-width:800px){
+
+}
+@media(max-width:768px){
+
+}
+@media(max-width:667px){
+	
+}
+@media(max-width:600px){
+	li{
+		padding: 3px 2px 15px;
+		top:auto;
+	}
+
+	.boton{
+		border-radius: 6px;
+		font-size: 14px;
+		padding: 6px;
+	}
+}
+@media(max-width:568px){
+	li{
+		padding: 3px 2px 15px;
+		top:auto;
+	}
+
+	.boton{
+		border-radius: 6px;
+		font-size: 15px;
+		padding: 6px;
+	}
+	
+}
+@media(max-width:414px){
+	li{
+		padding: 3px 2px 15px;
+		top:auto;
+	}
+
+	.boton{
+		border-radius: 6px;
+		font-size: 18px;
+		padding: 6px;
+	}
+	
+}
+@media(max-width:375px){
+	li{
+		padding: 3px 2px 15px;
+		top:auto;
+	}
+
+	.boton{
+		border-radius: 6px;
+		font-size: 15px;
+		padding: 6px;
+	}
+	
+}
+@media(max-width: 320px){
+	li{
+		padding: 3px 2px 15px;
+		top:auto;
+	}
+
+	.boton{
+		border-radius: 6px;
+		font-size: 12px;
+		padding: 6px;
+	}
+}
+@media(max-width:240px){
+	
+}

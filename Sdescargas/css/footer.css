@@ -1,0 +1,172 @@
+footer{
+	background: #F3F3F3;
+	margin: 0px auto;
+	padding: 25px;
+	text-align: center;
+}
+
+.footer{
+	margin: 5px;
+	padding: 5px;
+	display: inline-block;
+}
+
+.fbk{
+	background: url(../images/fbk1.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 50px; 
+}
+
+.fbk:hover{
+	background: url(../images/fbk2.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 50px;
+}
+
+.twitter{
+	background: url(../images/twitter1.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 50px;
+}
+
+.twitter:hover{
+	background: url(../images/twitter2.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 50px;
+}
+
+.google{
+	background: url(../images/google+.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 50px;
+}
+
+.google:hover{
+	background: url(../images/google+2.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 50px;
+}
+
+.youtube{
+	background: url(../images/youtube1.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 50px;
+}
+.youtube:hover{
+	background: url(../images/youtube2.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 50px;
+}
+
+@media(min-width: 1080px){
+	footer{
+		max-width: 100%;
+	}
+	p{
+		padding: 5px;
+	}
+}
+
+@media(max-width: 1024px){
+	p{
+		font-size: 13px;
+		padding: 5px;
+	}
+	.footer{
+		margin: 8px;
+		padding: 5px;
+	}
+}
+
+@media(max-width: 768px){
+	p{
+		font-size: 15px;
+		padding: 6px;
+	}
+	.footer{
+		margin: 10px;
+		padding: 7px;
+	}
+}
+
+@media(max-width: 600px){
+	p{
+		font-size: 13px;
+		padding: 5px;
+	}
+	.footer{
+		margin: 10px;
+		padding: 7px;
+	}
+}
+
+@media(max-width: 568px){
+	footer{
+		width: 95%;
+	}
+	p{
+		font-size: 10px;
+		padding: 7px;
+	}
+	.footer{
+		margin: 10px;
+		padding: 7px;
+	}
+}
+
+@media(max-width: 480px){
+	footer{
+		width: 90%;
+	}
+	p{
+		font-size: 11px;
+		padding: 3px;
+	}
+	.footer{
+		margin: 5px;
+		padding: 3px;
+	}
+}
+
+@media(max-width: 384px){
+	p{
+		font-size: 13px;
+		padding: 5px;
+	}
+	.footer{
+		margin: 10px;
+		padding: 7px;
+	}
+}
+
+@media(max-width: 320px){
+	footer{
+		width: 80%;
+	}
+	p{
+		font-size: 13px;
+		padding: 3px;
+	}
+	.footer{
+		margin: 10px;
+		padding: 7px;
+	}
+}
+
+@media(max-width: 240px){
+	footer{
+		width: 100%;
+	}
+
+
+}
+
+

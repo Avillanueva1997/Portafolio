@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+	
+}
+/* el color despues de la url indica que si no sale la imagen sale el color negro
+	y cover indica que debe abarcar toda la pantalla
+	*/
+body{
+	background-image: url('../images/fondoreloj.jpg');
+    background-size: cover;
+	color: #fff;
+	font-size: 16px;
+}
+
+.wrap{
+	width: 90%;
+	max-width: 1000px;
+	/* con esto se centra en la pantalla margin:auto;*/
+}
+
+.widget{
+	width: 40%;
+	margin: 2em;
+	/*  arriba = margin:32px;*/
+}
+
+.widget p{
+	display: inline-block;
+	line-height: 1em;
+}
+
+.fecha{
+
+	font-family: 'Indie Flower', cursive;
+	text-align: center;
+	font-size: 1.5em;
+	margin-bottom: 0.3125rem;
+	/*margin-bottom:5px;*/
+	background: rgba(0,0,0,.5);
+	padding: 20px;
+	width: 100%;
+
+}
+
+.hora{
+	font-family: 'Indie Flower', cursive;
+	width: 100%;
+	padding: 20px;
+	font-size: 4em;
+	text-align: center;
+	background:rgba(0,0,0,.5);
+}
+
+.hora .caja-segundos{
+	display: inline-block;
+}
+
+.hora .segundos,
+.hora .ampm {
+	font-size: 2rem;
+	display: block;
+}

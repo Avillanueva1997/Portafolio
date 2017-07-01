@@ -1,0 +1,63 @@
+/*Detalles*/
+.cajaDes{
+	max-width: 90%;
+	color: black;
+	background:white;
+	float: left;
+	width: auto;
+	height: auto;
+	text-align: left;
+	border:2px solid #E2E2E2;
+	border-radius: 10px;
+	margin: 8px;
+	font-family: arial;
+	font-size: 18px;
+	padding: 5px;
+	-webkit-box-shadow: 0 0 5px #0C0C0C;
+	-moz-box-shadow: 0 0 5px #0C0C0C;
+	-ms-box-shadow: 0 0 5px #0C0C0C;
+	-o-box-shadow: 0 0 5px #0C0C0C;
+}
+
+.cajaDes:hover{
+	-webkit-box-shadow: 0 0 10px #0C0C0C;
+	-moz-box-shadow: 0 0 10px #0C0C0C;
+	-ms-box-shadow: 0 0 10px #0C0C0C;
+	-o-box-shadow: 0 0 10px #0C0C0C;
+
+}
+
+.cajaSola{
+	display: inline;
+	color: black;
+	background:white;
+	float: left;
+	width: auto;
+	height: auto;
+	text-align: center;
+	border:2px solid #E2E2E2;
+	border-radius: 10px;
+	margin: 8px;
+	padding: 10px;
+	box-shadow: 0 0 5px #0C0C0C;
+	-webkit-box-shadow: 0 0 5px #0C0C0C;
+	-moz-box-shadow: 0 0 5px #0C0C0C;
+	-ms-box-shadow: 0 0 5px #0C0C0C;
+	-o-box-shadow: 0 0 5px #0C0C0C;
+}
+
+.cajaSola:hover{
+	-webkit-box-shadow: 0 0 10px #0C0C0C;
+	-moz-box-shadow: 0 0 10px #0C0C0C;
+	-ms-box-shadow: 0 0 10px #0C0C0C;
+	-o-box-shadow: 0 0 10px #0C0C0C;
+}
+
+.contenedor{
+	border-radius: 10px;
+	max-width: 80%;
+	height: 504px;
+	margin: auto;
+	margin-top: 20px;
+	text-align: center;
+}
